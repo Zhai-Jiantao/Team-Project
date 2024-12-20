@@ -60,8 +60,8 @@ public class Main{
 
     }
     private void printStudent(int i){
-        System.out.println("Maths is:"+ students[i].getEnglish());
-        System.out.println("English is:"+students[i].getMaths());
+        System.out.println("Maths is:"+ students[i].getMaths());
+        System.out.println("English is:"+students[i].getEnglish());
         System.out.println("History is:"+students[i].getHistory());
     }
 
